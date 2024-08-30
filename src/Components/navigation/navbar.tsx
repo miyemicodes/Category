@@ -1,6 +1,6 @@
 import React from "react";
-// import { FaCartShopping, FaUser } from "react-icons/fa6";
-// import Search from "../search/search";
+import { FaCartShopping, FaUser } from "react-icons/fa6";
+import Search from "../search/search";
 
 export default function Nav() {
   return (
@@ -11,11 +11,11 @@ export default function Nav() {
         </div>
 
         <div className="flex flex-row items-center justify-center gap-5">
-          {/* <Search /> */}
+          <Search />
 
           <div className="text-xl text-[#967f50] flex flex-row items-center justify-center gap-5">
-            {/* <FaCartShopping />
-            <FaUser /> */}
+            <FaCartShopping />
+            <FaUser />
           </div>
         </div>
       </nav>

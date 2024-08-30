@@ -1,5 +1,5 @@
 import React from "react";
-// import { FaSearch } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 export default function Search() {
   return (
@@ -10,7 +10,7 @@ export default function Search() {
           placeholder="Search..."
           className="hidden bg-transparent border-none outline-none md:block lg:block"
         />
-        {/* <FaSearch className="text-[#a5a5a5]" /> */}
+        <FaSearch className="text-[#a5a5a5]" />
       </div>
     </>
   );
