@@ -8,18 +8,27 @@ export default function Addproduct() {
         <FaCameraRetro className="text-6xl text-[#967f50]" />
       </div>
 
-      <form className="flex flex-col items-center justify-center ">
-        <div>
-          <label>Item Name</label>
-          <input type="text" placeholder="Enter name of item" />
-        </div>
-        <div>
-          <label>Item Price</label>
-          <input type="number" placeholder="Enter name of item" />
+      <form className="flex flex-col items-center justify-center w-full px-4">
+        <div className="flex flex-col items-start justify-start w-full">
+          <label className="font-semibold">Item Name</label>
+          <input
+            type="text"
+            placeholder="Enter name of item"
+            className="border placeholder:text-sm px-3 py-2 rounded-lg outline-none w-full"
+          />
         </div>
 
-        <div>
-          <p className="p-2 font-semibold">Select :</p>
+        <div className="flex flex-col items-start justify-start w-full">
+          <label className="font-semibold">Item Price</label>
+          <input
+            type="number"
+            placeholder="Enter name of item"
+            className="border placeholder:text-sm px-3 py-2 rounded-lg outline-none w-full"
+          />
+        </div>
+
+        <div className="flex flex-col items-start justify-start">
+          <p className="p-2 font-semibold">Select size :</p>
 
           <ul className="flex flex-wrap items-center justify-start gap-3">
             <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
@@ -42,6 +51,31 @@ export default function Addproduct() {
             </li>
             <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
               XXXL
+            </li>
+          </ul>
+        </div>
+
+        <div className="flex flex-col items-start justify-start">
+          <p className="p-2 font-semibold">Select color :</p>
+
+          <ul className="flex flex-wrap items-center justify-start gap-3">
+            <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
+              Black
+            </li>
+            <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
+              White
+            </li>
+            <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
+              Red
+            </li>
+            <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
+              Blue
+            </li>
+            <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
+              Ash
+            </li>
+            <li className="border p-2 font-semibold rounded-xl hover:border-[#967f50]">
+              Green
             </li>
           </ul>
         </div>

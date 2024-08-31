@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="">
       <Nav />
-      <div className="py-10 px-2 flex flex-row gap-3 bg-transparent w-full">
+      <div className="py-2 md:py-10 px-2 flex flex-col md:flex-row gap-3 bg-transparent w-full">
         <Sidebar />
         <Category />
       </div>
